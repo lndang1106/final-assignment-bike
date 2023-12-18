@@ -47,6 +47,7 @@ $orange: #F60;
   border-radius: 1rem; // rounded-2xl
   border-color: $green;
   overflow: hidden;
+  box-shadow: 0.125rem 0.75rem 1rem #ababab;
   .mainInfo {
     display: flex;
     flex-direction: column;
@@ -72,6 +73,13 @@ $orange: #F60;
     color: white;
     font-weight: 700; // font-bold
     border-radius: 0.5rem; // rounded-lg
+  }
+  .button:hover {
+    background-color: rgb(230, 92, 0);
+  }
+  .button:active {
+    background-color: rgb(230, 92, 0);
+    transform: translateY(0.125rem);
   }
 } 
 
