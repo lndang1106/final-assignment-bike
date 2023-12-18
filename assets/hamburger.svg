@@ -1,0 +1,8 @@
+<svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="hamburger">
+  <rect id="Rectangle 4" y="0.75" width="55" height="55" fill="white"/>
+  <path id="top" d="M12 15.75C32.3636 15.75 41.8182 15.75 44 15.75" stroke="black" stroke-width="3"/>
+  <path id="bottom" d="M12 39.75C32.3636 39.75 41.8182 39.75 44 39.75" stroke="black" stroke-width="3"/>
+  <path id="middle" d="M12 27.75C32.3636 27.75 41.8182 27.75 44 27.75" stroke="black" stroke-width="3"/>
+  </g>
+</svg>
