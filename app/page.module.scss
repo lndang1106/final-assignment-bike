@@ -1,0 +1,59 @@
+.hero {
+  padding-bottom: 5rem;
+  background: linear-gradient(160deg, #FFF 50%, rgba(255, 102, 0, 0.05) 100%);
+}
+
+.heroText {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+  // Thank you!
+  // https://stackoverflow.com/questions/72452512/make-the-underline-more-curved
+  .bike {
+    position: relative;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .bike::after {
+    content: "";
+    position: absolute;
+    bottom: -1.5rem;
+    left: -0.25rem;
+    height: 1.5rem;
+    width: 100%;
+    z-index: 0;
+    border: solid 0.2rem #F60;
+    border-color: #F60 transparent transparent transparent;
+    border-radius: 100%;
+  }
+  .scroller {
+    position: relative;
+    overflow: hidden;
+    height: 1.5em;
+    line-height: 1.5em;
+    display: inline-block;
+    padding-left: 0.5rem;
+    //padding-top: 0.2em;
+  }
+  .scroller .span {
+    position: relative;
+    top: 0;
+    color: #008080;
+    animation: scroll 8s infinite;
+  }
+  @keyframes scroll {
+    0% {
+      top: 0;
+    }
+    25% {
+      top: -1.5em;
+    }
+    50% {
+      top: -3em;
+    }
+    75% {
+      top: -4.5em;
+    }
+  }
+}

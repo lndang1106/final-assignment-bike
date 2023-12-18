@@ -1,0 +1,38 @@
+.scrollText {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  background: url("../../assets/overpass30.jpg") 50% / cover no-repeat;
+  margin-bottom: 5rem; // mb-20
+}
+
+.text {
+  font-family: sans-serif;
+  font-size: 4.5rem; // text-7xl
+  font-weight: 900;
+  padding-right: 1rem;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  animation: animate_text 10s linear infinite;
+}
+
+// Thank you!
+// https://www.myoussouf.com/blog/horizontal-scrolling-text-css
+@keyframes animate_text {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media (min-width: 1024px) {
+  .scrollText {
+    height: 10rem; // h-40
+    margin-bottom: 8rem; // mb-32
+  }
+}
