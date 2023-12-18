@@ -1,5 +1,5 @@
-Web Visualization - Final Assignment  
-Name: Dang Le - AB0211
+**Web Visualization - Final Assignment**  
+**Name: Dang Le - AB0211**
 
 # Resourcing (use of time)
 
