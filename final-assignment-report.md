@@ -32,6 +32,6 @@ I learned so many things in this assignment:
 - Practicing responsive design, applying the mobile-first rule
 - Some small things like outline text, customizable underline, etc.
 
-# Grade proposal for yourself and reasons
+# Grade proposal and reasons
 
 I would expect a 5 as that was my goal and I tried to use all the best technologies in the assignment. I invested all my energy and my time into this because I wanted the highest grade. I am very satisfied with my work and I think the performance of the website is also superb.
