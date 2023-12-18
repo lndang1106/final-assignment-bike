@@ -45,6 +45,7 @@ $orange: #F60;
   border-radius: 1rem; // rounded-2xl
   border-color: $green;
   overflow: hidden;
+  box-shadow: 0.125rem 0.75rem 1rem #ababab;
   .cta {
     display: flex;
     flex-direction: column;
@@ -83,6 +84,9 @@ $orange: #F60;
       }
     }
   }
+  .input:focus {
+    outline-color: $green;
+  }
   .input[type="submit"] {
     display: flex;
     align-self: center;
@@ -93,6 +97,13 @@ $orange: #F60;
     font-weight: 700; // font-bold
     border-radius: 0.5rem; // rounded-lg
     width: max-content;
+  }
+  .input[type="submit"]:hover {
+    background-color: rgb(230, 92, 0);
+  }
+  .input[type="submit"]:active {
+    background-color: rgb(230, 92, 0);
+    transform: translateY(0.125rem);
   }
 }
 
