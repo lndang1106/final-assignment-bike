@@ -4,7 +4,7 @@ const isProd = process.env.NODE_ENV === 'production'
 
 const nextConfig = {
   output: 'export',
-  assetPrefix: isProd ? '/next-gitlab-pages/' : '',
+  assetPrefix: isProd ? '/final-assignment-bike/' : '',
   trailingSlash: true
 }
 
