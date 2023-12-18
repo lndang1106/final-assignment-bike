@@ -3,10 +3,10 @@
 
 # Resourcing (use of time)
 
-1. Designing
+1. Designing  
 The time used for designing the website in Figma was around 7 hours.
 
-2. Building the website
+2. Building the website  
 I started building the website on 11.12 and spent around 5-6 hours/day for the next consecutive 7 days. I finished building the website on 18.12. So, I spent more or less 37-40 hours on coding.
 
 => In total, this assignment took me around 44-47 hours to complete.
