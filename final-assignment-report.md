@@ -1,6 +1,6 @@
 **Web Visualization - Final Assignment**  
 **Name: Dang Le - AB0211**  
-Link to the website: https://final-assignment-bike.vercel.app/
+**Link to the website: https://final-assignment-bike.vercel.app/**
 
 # Resourcing (use of time)
 
